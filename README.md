@@ -1,11 +1,11 @@
-# 🔍 Steel Surface Defect Classification using PyTorch & ResNet50
+Steel Surface Defect Classification using PyTorch & ResNet50
 
 An end-to-end **Computer Vision** project that automatically classifies **steel surface defects** using **Transfer Learning with ResNet50** in **PyTorch**.
 The project includes data preprocessing, transfer learning, model training, evaluation, and a **Streamlit-based web application** for real-time defect prediction.
 
 ---
 
-# 📌 Project Overview
+Project Overview
 
 Manual inspection of steel surfaces is time-consuming and prone to human error.
 This project leverages **Deep Learning** to automate the classification of steel surface defects, improving inspection speed, consistency, and accuracy for industrial quality control.
@@ -13,7 +13,7 @@ The pretrained **ResNet50** model was fine-tuned on the **NEU Steel Surface Defe
 
 ---
 
-# 🚀 Features
+Features
 
 ✅ Transfer Learning using ResNet50
 
@@ -31,7 +31,7 @@ The pretrained **ResNet50** model was fine-tuned on the **NEU Steel Surface Defe
 
 ---
 
-# 🛠 Tech Stack
+Tech Stack
 
 | Category | Technologies |
 |----------|--------------|
@@ -47,11 +47,10 @@ The pretrained **ResNet50** model was fine-tuned on the **NEU Steel Surface Defe
 ---
 
 
-# 📊 Dataset
+Dataset
 
 The model is trained on the **NEU Steel Surface Defect Dataset**.
-
-### Classes
+Classes
 
 - Crazing
 - Inclusion
@@ -62,7 +61,7 @@ The model is trained on the **NEU Steel Surface Defect Dataset**.
 
 ---
 
-# 🧠 Model Architecture
+Model Architecture
 
 Transfer Learning using **ResNet50**
 
@@ -76,7 +75,7 @@ model.fc = nn.Linear(model.fc.in_features, 6)
 
 ---
 
-# ⚙️ Installation
+Installation
 
 Clone the repository
 
@@ -98,7 +97,7 @@ pip install -r requirements.txt
 
 ---
 
-# ▶️ Run the Streamlit Application
+Run the Streamlit Application
 
 ```bash
 streamlit run app.py
@@ -108,7 +107,7 @@ The application will launch in your default browser.
 
 ---
 
-# 📈 Training Pipeline
+Training Pipeline
 
 1. Load Dataset
 2. Data Preprocessing
@@ -122,7 +121,7 @@ The application will launch in your default browser.
 
 ---
 
-# 📊 Model Evaluation
+Model Evaluation
 
 Evaluation metrics include:
 
@@ -135,7 +134,7 @@ Evaluation metrics include:
 
 ---
 
-# 🎯 Industrial Applications
+Industrial Applications
 
 - Steel Manufacturing
 - Quality Inspection
@@ -146,7 +145,7 @@ Evaluation metrics include:
 
 ---
 
-# 🔮 Future Improvements
+Future Improvements
 
 - YOLO-based Defect Detection
 - Real-time Camera Inspection
@@ -161,6 +160,6 @@ Evaluation metrics include:
 
 ---
 
-# ⭐ Support
+Support
 
 If you found this project helpful, please consider giving it a ⭐ on GitHub.
